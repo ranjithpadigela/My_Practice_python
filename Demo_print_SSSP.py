@@ -42,3 +42,10 @@ for i in str[8:]:
     print(i)
 
 search_for_string = 'I am practicing the python program and it is very easy to learn why because it has less and short syntax'
+
+word = 'python'
+
+my_string = search_for_string
+
+if word in my_string:
+    print('Success this word is present within in the string ')

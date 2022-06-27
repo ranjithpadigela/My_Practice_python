@@ -1,0 +1,21 @@
+# To check leap year 
+from sys import argv 
+year = int(argv[1])
+if(year%4==0):
+    print(year,"is leap year")
+else:
+    print(year,"is not leap year")
+
+
+#To check even/odd number
+
+num1 = int(input("Enter a number"))
+if (num1 %2 == 0):
+    print("The number is even")
+else:
+    print("The number is odd")
+#convert to feet/inches
+convert = float(input("Enter the inches"))
+feet = int(convert/12)
+inches = int(convert % 12)
+print(convert,"is equal to",feet,"feet",inches,"inches")    
